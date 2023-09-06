@@ -82,17 +82,15 @@ body {
   display: flex;
   align-items: center;
 }
+.card .info p img {
+  margin-right: 7px;
+}
 .card .info p:nth-of-type(1) {
   color: var(--cyan);
-}
-.card .info p:nth-of-type(1) img {
-  margin-right: 10px;
+  font-weight: 600;
 }
 .card .info p:nth-of-type(2) {
   color: var(--soft-blue);
-}
-.card .info p:nth-of-type(2) img {
-  margin-right: 10px;
 }
 .card hr {
   border: 1px solid var(--very-dark-blue-line);
